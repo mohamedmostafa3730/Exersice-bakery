@@ -1,0 +1,498 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.clear {
+  clear: both;
+}
+
+/* [1] build structure of homepage 
+   {1} home section
+      container {
+      | (1) navbar
+      | (2) section text
+      | (3) section buttons
+      } */
+
+.home-section {
+  background-image: url(../images/drew-coffman-1872.jpg);
+  color: #fff;
+  height: 100vh;
+  background-position: center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.home-section .container .section-text {
+  margin-top: 275px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.92);
+  padding-inline: 26%;
+}
+
+.home-section .section-text .fist-paragraph {
+  font-family: "Alegreya Sans";
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.home-section .section-text h1 {
+  font-family: "Alegreya";
+  font-size: 76px;
+  margin-bottom: 18px;
+  font-weight: 400;
+  margin-top: 0;
+}
+
+.home-section .section-text .second-paragraph {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Alegreya Sans";
+}
+
+.home-section button {
+  margin-top: 30px;
+  padding: 10px 17px;
+  font-size: 14px;
+  margin-left: 12px;
+  color: white;
+  border-radius: 4px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.home-section .Learn-More {
+  background-color: #b18f5a;
+  border: 2px solid transparent;
+}
+
+.home-section .contact-us {
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+/* {2} why we are? section
+      container {
+      | (1) section-image
+      | (2) section-text
+      | (3) section-list
+      } */
+
+.why-we-are-section .container {
+  padding-inline: 10%;
+  padding-block: 6%;
+}
+
+.why-we-are-section .container .section-image,
+.why-we-are-section .container .section-text,
+.why-we-are-section .container .section-list {
+  width: 45%;
+  float: left;
+}
+
+.why-we-are-section .container .section-text {
+  width: 45%;
+  line-height: 1.86em;
+}
+
+.why-we-are-section .container .section-text h2 {
+  margin-top: 8%;
+  margin-bottom: 25px;
+  font-family: "Alegreya";
+  font-size: 32px;
+  color: #303030;
+  font-weight: 400;
+}
+
+.why-we-are-section .container .section-text p {
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  font-weight: 400;
+  color: #686868;
+  margin-bottom: 25px;
+  margin-top: 0%;
+}
+
+.why-we-are-section .container .section-list {
+  margin-bottom: 35px;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  font-weight: 400;
+  color: #686868;
+}
+
+.why-we-are-section .container .section-list li {
+  margin-bottom: 2px;
+  border: 0;
+  padding: 15px 0;
+  list-style: none;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  font-weight: 400;
+  color: #686868;
+}
+
+.why-we-are-section .container .section-list .glist img {
+  width: 22px;
+  border: 1px solid #686868;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.why-we-are-section .container .section-image {
+  padding-right: 7%;
+}
+
+.why-we-are-section .container .section-image img {
+  width: 100%;
+}
+
+/* {3} our location section 
+      container {
+      | (1) section-image
+      | (2) section-text
+      } */
+
+.our-location-section .container {
+  background-color: #f8f8f8;
+  padding-inline: 10%;
+  padding-block: 6%;
+}
+
+.our-location-section .section-text,
+.our-location-section .section-image {
+  width: 45%;
+  float: left;
+}
+
+.our-location-section .section-text {
+  padding-right: 2%;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 1.86em;
+  font-weight: 400;
+  color: #686868;
+  padding-inline: 15px;
+  padding-top: 20px;
+}
+
+.our-location-section .section-text h2 {
+  font-family: "Alegreya";
+  font-size: 32px;
+  color: #303030;
+  line-height: 1.38em;
+  font-weight: 400;
+  margin-bottom: 25px;
+  margin-top: 0%;
+}
+
+.our-location-section .section-text .fist-paragraph {
+  margin-bottom: 20px;
+  margin-top: 0%;
+}
+
+.our-location-section .section-text .second-paragraph {
+  margin-block: 0%;
+}
+
+.our-location-section .section-image {
+  padding-top: 0%;
+  padding-bottom: 0%;
+  padding-right: 0%;
+  padding-left: 2%;
+}
+
+.our-location-section .section-image img {
+  width: 100%;
+}
+
+/* {4} our baking section
+      container {
+      | (1) head section
+      | (2) container baking {
+      |     | 1- baking one {baking one image, baking one text}
+      |     | 2- baking two {baking two image, baking two text}
+      |     | 3- baking three {baking three image, baking three text}
+      |     }
+      } */
+
+.our-baking-section .container {
+  background-color: #ffffff;
+  /* padding-inline: 10%; */
+  padding-left: 10.9%;
+  padding-right: 9.1%;
+  padding-block: 6%;
+}
+
+.our-baking-section .head-section {
+  text-align: center;
+  margin-bottom: 60px;
+  margin-top: 10px;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  font-weight: 400;
+  color: #686868;
+  line-height: 1.86em;
+}
+
+.our-baking-section .baking-one,
+.our-baking-section .baking-two,
+.our-baking-section .baking-three {
+  width: 31%;
+  float: left;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 1.86em;
+  font-weight: 400;
+  color: #686868;
+  text-align: center;
+}
+
+.our-baking-section .baking-one {
+  padding-right: 1%;
+}
+
+.our-baking-section .baking-two {
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.our-baking-section .baking-three {
+  padding-left: 1%;
+}
+
+.our-baking-section .container-baking img {
+  margin-bottom: 30px;
+}
+
+.our-baking-section .container-baking h3 {
+  margin-bottom: 15px;
+  font-family: "Alegreya";
+  font-size: 22px;
+  line-height: 1.38em;
+  color: #303030;
+  font-weight: 400;
+  margin-block: 0%;
+}
+
+.our-baking-section .container-baking p {
+  margin-block: 0%;
+  line-height: 1.86em;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  font-weight: 400;
+  color: #686868;
+}
+
+.our-baking-section .container-baking img {
+  width: 100%;
+}
+
+/* {5} contact information section
+      container {
+      | (2) section-text
+      | (3) section-map
+      } */
+
+.contact-information-section .container {
+  background-color: #f8f8f8;
+  padding-inline: 8%;
+  padding-block: 6%;
+}
+
+.contact-information-section .section-text,
+.contact-information-section .map {
+  width: 44%;
+  float: left;
+}
+
+.contact-information-section .section-text {
+  padding-left: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 2%;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  line-height: 1.86em;
+  font-weight: 400;
+  color: #686868;
+  padding-inline: 15px;
+  margin-bottom: 35px;
+}
+
+.contact-information-section .section-text h2 {
+  font-family: "Alegreya";
+  font-size: 32px;
+  color: #303030;
+  line-height: 1.38em;
+  font-weight: 400;
+  margin-bottom: 25px;
+  margin-top: 0%;
+}
+
+.contact-information-section .section-text p {
+  margin-block: 0%;
+  line-height: 1.86em;
+  font-family: "Alegreya Sans";
+  font-size: 17px;
+  font-weight: 400;
+  color: #686868;
+}
+
+.contact-information-section .section-text .second-paragraph {
+  padding-block: 20px;
+}
+
+.contact-information-section .section-text ul {
+  list-style: none;
+  padding-left: 0%;
+  margin-top: 0%;
+}
+
+.contact-information-section .section-text li {
+  border: 0;
+  padding: 15px 0px;
+  padding-left: 10px;
+}
+
+.contact-information-section .section-text li p {
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.contact-information-section .section-text ul img {
+  width: 25px;
+  background-color: #b18f5a;
+  border-radius: 50%;
+}
+
+.contact-information-section .map {
+  padding: 0% 0% 0% 2%;
+  height: 70%;
+}
+
+/* {6} footer section
+       container {
+      |  (1) head-footer {
+      |  |  1- about-us 
+      |  |  2- Why we are special?
+      |  |  3- Opening Hours
+      |  |  4- Contact Details
+      |  }
+      |  (2) foot-footer {
+      |  |  1- section-logo
+      |  |  2- section-text
+      |  |  3- section-icons
+         }
+      } */
+
+.footer-section .container {
+  background-color: #403d38;
+  color: #969696;
+  font-size: 17px;
+  padding-top: 60px;
+  padding-bottom: 52px;
+  font-family: "Alegreya Sans";
+  line-height: 1.86em;
+  font-weight: 400;
+  padding-left: 10.9%;
+  padding-right: 9.1%;
+  padding-block: 6%;
+}
+
+.footer-section .about,
+.footer-section .special,
+.footer-section .hours,
+.footer-section .contact {
+  width: 22%;
+  float: left;
+}
+
+.footer-section .about h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 25px;
+  margin-top: 0px;
+  font-family: "Alegreya";
+  line-height: 1.38em;
+  font-weight: 400;
+}
+
+.footer-section .about .fist-paragraph {
+  color: #969696;
+  font-size: 16px;
+  line-height: 1.86em;
+  margin-bottom: 20px;
+  font-family: "Alegreya Sans";
+  font-weight: 400;
+}
+
+.footer-section .about .second-paragraph {
+  color: #969696;
+  font-size: 16px;
+  margin: 0%;
+  line-height: 1.86em;
+  font-family: "Alegreya Sans";
+  font-weight: 400;
+}
+
+.footer-section .special {
+  color: #969696;
+  font-size: 16px;
+  font-family: "Alegreya Sans";
+  line-height: 1.86em;
+  font-weight: 400;
+}
+
+.footer-section .special h3,
+.footer-section .contact h3,
+.footer-section .hours h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 25px;
+  margin-top: 0%;
+  font-family: "Alegreya";
+  line-height: 1.38em;
+  font-weight: 400;
+}
+
+.footer-section .special li,
+.footer-section .hours li,
+.footer-section .contact li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 6px;
+  padding-bottom: 7px;
+  color: #969696;
+  font-size: 16px;
+  font-family: "Alegreya Sans";
+  line-height: 1.86em;
+  font-weight: 400;
+}
+
+.footer-section .last-item {
+  border-bottom: 0px;
+}
+
+.footer-section img {
+  width: 20px;
+}
+
+.footer-section li {
+  list-style: none;
+}
+
+.footer-section .special p,
+.footer-section .hours p,
+.footer-section .contact p {
+  display: inline-block;
+}
+
+.footer-section .special,
+.footer-section .hours,
+.footer-section .contact {
+  display: inline-block;
+  padding-inline: 2px;
+}
